@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-$:.push File.expand_path("../lib", __FILE__)
+$:.unshift File.expand_path("../lib", __FILE__)
 require "autonom/version"
 
 Gem::Specification.new do |s|
@@ -20,6 +20,8 @@ Gem::Specification.new do |s|
   s.add_dependency 'foreman'
   s.add_dependency 'virtus'
   s.add_dependency 'active_support'
+  s.add_dependency 'thor'
+  s.add_dependency 'daemons'
   s.add_development_dependency 'minitest'
   s.add_development_dependency 'minitest-reporters'
 

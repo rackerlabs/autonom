@@ -1,0 +1,3 @@
+publisher: bundle exec run_autonom publisher
+subscriber1: bundle exec run_autonom subscriber1
+subscriber2: bundle exec run_autonom subscriber2

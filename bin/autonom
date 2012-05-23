@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+$:.unshift File.expand_path('../../lib/autonom', __FILE__)
+require 'cli'
+Autonom::CLI.start
