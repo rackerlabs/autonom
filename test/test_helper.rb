@@ -1,3 +1,4 @@
+require 'autonom'
 require 'minitest/autorun'
 require 'minitest/reporters'
 require 'require_all'
